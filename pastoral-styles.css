@@ -1,0 +1,71 @@
+
+
+
+
+
+.bloco-pastoral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-pastoral img {
+    width: 550px;
+    height: auto;
+    border: solid blue;
+    padding: 5px;
+}
+
+.bloco-pastoral figcaption {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194, 157, 13);
+    margin-bottom: 10px;
+}
+
+.blocopastorais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blocopastorais a {
+    text-decoration: none;
+    color: black;
+}
+
+.blocopastorais  h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    justify-content: center;
+    background-color: rgb(194, 157, 13);
+    /* margin-bottom: 20px; */
+    max-width: 800px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.blocopastorais  p {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    max-width: 900px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+

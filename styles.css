@@ -1,0 +1,1090 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(213, 209, 164);
+}
+
+h1, h2, h3, h4, p, a, li, ul, figcaption {
+    font-family: "Inter", sans-serif;
+} 
+
+.container-pagina-completo-grid {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 100%;
+    /* overflow-x: hidden;  Esconde qualquer conteúdo que ultrapasse a largura 
+    box-sizing: border-box;*/
+
+    /* border: black solid; */
+}
+
+.container-pagina-completo-grid div * .o-maria{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+    color: #0039A1;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+.cabecalho-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background-color: #0039A1;
+}
+.cabecalho-flex ul {
+    list-style: none;
+}
+
+.item-nav-cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-style: none;
+}
+
+.item-nav-cabecalho img {
+    width: 90px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.logo-paroquia-cabecalho {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 209, 164);
+}
+
+.logo-paroquia-cabecalho img{
+    width: 200px;
+    padding: 15px 0 10px 0;
+}
+
+.logo-paroquia-cabecalho p  {
+    margin: 5px 3px;
+    padding: 5px;
+    text-align: left;
+    font-style: none;
+    width: 350px;
+    color: #0039A1;
+    font-family: "Inter", sans-serif;
+    text-shadow: 4px 4px 2px rgba(241, 217, 0, 0.7);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.item-nav-cabecalho a {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.item-nav-cabecalho p {
+    display: none;
+}
+
+.logo-cabecalho {
+    display: none;
+}
+
+
+
+.item-nav-rodape-pc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 15px;
+}
+
+.item-nav-rodape ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-right: 3px;
+    text-align: center;
+}
+
+.item-nav-rodape a {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    margin: 5px;
+    padding: 2px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.item-nav-rodape img {
+    width: 90px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.item-rodape {
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px;
+    font-family: Inter, sans-serif;
+}
+
+.item-nav-rodape ul * a {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    margin: 5px;
+    padding: 2px;
+    font-size: 25px;
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+
+
+
+
+
+.item-nav-rodape-pc ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-right: 3px;
+    text-align: center;
+}
+
+.item-nav-rodape-pc a {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    margin: 5px;
+    padding: 2px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.item-nav-rodape-pc img {
+    width: 90px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.item-rodape-pc {
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px;
+    font-family: Inter, sans-serif;
+}
+
+.item-nav-rodape-pc ul * a {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    margin: 5px;
+    padding: 2px;
+    font-size: 25px;
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+
+
+
+
+.container-corpo-grid {
+    display: grid;
+    flex: 1;
+    width: 100%;
+    margin: 0;
+    /* border: black solid; */
+}
+
+.container-corpo-grid div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container-corpo-grid p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 2px;
+}
+
+.imagens-inicio-cima {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.imagens-inicio-baixo {
+    display: block;
+}
+
+
+.imagens-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto-matriz img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    width: auto;
+    height: 450px;
+    border-radius: 10%;
+    border: solid rgb(144, 61, 10);
+    padding: 5px;
+    margin-bottom: 5px;
+   
+}
+.foto-matriz-dentro {
+    position: relative;
+    text-align: center;
+}
+.foto-matriz-dentro img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    width: auto;
+    height: 450px;
+    border-radius: 10%;
+    border: solid rgb(144, 61, 10);
+    padding: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: center;
+}
+.texto-sobre-imagem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, 65%);
+    color: white;
+    width: 500px;
+    padding: 5px 10px;
+}
+.texto-sobre-imagem h1 {
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+.imagens-inicio figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.foto-matriz figcaption {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Inter", serif;
+}
+
+.foto-padroeiros-cima img {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    width: auto;
+    height: 300px;
+    border-radius: 10%;
+    border: solid blue;
+    padding: 5px;
+}
+
+.foto-padroeiros-cima figcaption {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Inter", serif;
+    margin-bottom: 25px;
+}
+
+.foto-padroeiros-baixo img {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    display: none;
+    width: auto;
+    height: 250px;
+    border-radius: 10%;
+    border: solid blue;
+    padding: 5px;
+}
+
+.foto-padroeiros-baixo figcaption {
+    display: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Inter", serif;
+    margin-bottom: 25px;
+}
+
+.ata-instalacao-paroquia p {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.ata-instalacao-paroquia {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /*
+    border: solid;
+    border-color: black;
+    */
+}
+
+
+#item-menu {
+    list-style: none;
+}
+
+.item ul {
+    padding: 0px;
+}
+
+#item-submenu {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(224, 231, 255);
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+    z-index: 90;
+}
+
+#item-menu-capelas {
+    list-style: none;
+}
+
+#item-submenu-capelas {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+
+#item-submenu-sucessao {
+    padding: 0;
+    list-style: none;
+}
+
+
+#item-submenu-sucessao li {
+    margin-bottom: 5px;
+}
+
+#item-submenu-sucessao li a {
+    font-size: 20px;
+    text-align: right;
+    display: block; 
+    color: black;
+}
+
+#item-submenu li a {
+    color: black;
+}
+
+#item-submenu li {
+    margin-bottom: 5px;
+}
+
+#item-menu:hover > #item-submenu{
+    display: block;
+    position: absolute;
+}
+
+
+
+.titulo-video-youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titulo-video-youtube h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.video-youtube {
+    margin-bottom: 20px;
+}
+
+.video-youtube iframe {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    border: solid #0039A1;
+    padding: 5px;
+}
+
+
+
+.bloco-lista-opcoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bloco-lista-opcoes a {
+    text-decoration: none;
+    color: black;
+}
+
+.bloco-lista-opcoes  h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    justify-content: center;
+    background-color: rgb(194, 157, 13);
+    /* margin-bottom: 20px; */
+    max-width: 800px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.bloco-lista-opcoes  p {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    max-width: 900px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.rodape-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #0039A1;
+}
+
+.rodape-flex ul {
+    list-style: none;
+}
+
+.rodape-flex-pc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #0039A1;
+}
+
+.rodape-flex-pc ul {
+    list-style: none;
+}
+
+.rodape-celular li, nav, .rodape-flex nav {
+    display: none;
+}
+
+
+
+.bloco-titulo-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-pagina h2 {
+    font-size: 35px;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-family: "Inter", serif;
+    color: #00215f;
+}
+
+
+.titulo-paroquia{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.titulo-paroquia h1 {
+    margin: 5px 3px;
+    padding: 3px 0px;
+    text-align: center;
+    background-color: #AEAEAE;
+    width: 100%;
+    color: #0039A1;
+    font-family: "Inter", sans-serif;
+    text-shadow: 4px 4px 2px rgba(241, 217, 0, 0.7);
+    font-weight: 700;
+}
+
+.video-youtube iframe {
+    height: 338px;
+    width: 600px;
+}
+
+
+
+    
+
+
+/* .mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+} */
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+
+.avisos-pag-inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.avisos-pag-inicial h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+    
+    
+.animacao-img-topo {
+	        animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation-delay: 1s;
+}
+
+  @keyframes slide-top {
+    0% {
+              transform: translateY(200px);
+              opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+
+
+/* @media (min-width: 305px) and (max-width: 395px){
+    .container-corpo-grid * .oioioi {
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    .container-pagina-completo-grid div * .oioioi{
+        padding: 0;
+        margin-top: 0;
+        width: 10px;
+    } 
+
+    .container-corpo-grid {
+        margin: 0;
+    }
+    .container-corpo-grid div {
+        background-color: #0187a7;
+        margin: 0;
+    }
+    .imagens-inicio figure {
+        width: 268px;
+        height: 200px;
+    }
+    .foto-matriz img {
+        width: 90px;
+        height: 90px;
+    }
+}*/
+
+
+.link-programacao-semanaSanta a {
+    font-size: 25px;
+    color: rgb(221, 0, 0);
+    font-style: underline;
+}
+
+
+
+
+
+.titulo-paragrafo-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-paragrafo-texto h2 {
+    color: #00215f;
+    text-align: left;
+    margin: 15px;
+    font-size: 25px;
+    height: auto;
+}
+
+.titulo-paragrafo-texto p {
+    color: #000e27;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-indent: 35px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.titulo-paragrafo-texto h3 a {
+    color: #000e27;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.foto-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-texto figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    margin-bottom: 50px;
+}
+
+.foto-texto img {
+    width: 400px;
+    margin: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    border: solid #daa520 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-texto figcaption {
+    margin-left: 20px;
+    color: #000e27;
+    font-size: 20px;
+}
+
+.cartaz-liturgia-smartphone img {
+    display: none;
+}
+
+.cartaz-liturgia-smartphone figcaption {
+    display: none;
+}
+
+
+
+
+.barra-circular-navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.barra-circular-navegacao img {
+    
+    width: 150px;
+    margin: 5px;
+    border-radius: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+}
+
+.barra-circular-navegacao figcaption{
+    border: black solid 1px;
+    color: #00215f;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+}
+
+
+
+
+@media (max-width: 980px){
+    .item {
+        display: none;
+    }
+    .cabecalho-flex {
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .item-nav-cabecalho {
+        padding-left: 10px;
+    }
+    .item-nav-cabecalho img {
+        width: 47px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .item-nav-cabecalho p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .computer-logo {
+        display: none;
+    }
+
+    .logo-cabecalho {
+        display: block;
+    }
+
+
+/* 
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        width: 20px;
+        height: auto;
+    }
+    .mobile-menu-icon img {
+        margin: 0;
+        width: 60px;
+        height: auto;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open {
+        display: block;
+    } */
+
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+    .mobile-menu {
+        background-color: white;
+        margin: 0 8px 8px 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    }
+    .mobile-menu a {
+        color: black;
+        box-shadow: 0 0 15px rgba(2, 59, 165, 1.0);
+        border: solid black 1px;
+        font-size: 25px;
+    }
+    .mobile-menu ul * {
+        margin: 0;
+        padding: 3px;
+    }
+    .mobile-menu ul {
+        display: flex;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cartaz-liturgia-computer img {
+        display: none;
+    }
+
+    .cartaz-liturgia-computer figcaption {
+        display: none;
+    }
+    .cartaz-liturgia-smartphone img {
+        display: block;
+    }
+
+    .cartaz-liturgia-smartphone figcaption {
+        display: block;
+    }
+
+    .foto-texto figure {
+        flex-direction: column;
+        width: 380px;
+        margin-bottom: 50px;
+    }
+
+    .foto-texto figcaption {
+        margin-top: 20px;
+    }
+
+    .foto-texto img {
+        width: 400px;
+        margin: 5px;
+    }
+}
+
+
+
+@media (max-width: 650px){
+    .container-corpo-grid div {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .titulo-paroquia h1 {
+        margin: 5px 8px;
+        padding: 8px;
+    }
+
+
+
+
+    .foto-padroeiros-cima img {
+        display: none;
+    }
+    
+    .foto-padroeiros-cima figcaption {
+        display: none;
+    }
+
+    .foto-padroeiros-baixo img {
+        display: block;
+        width: 250px;
+        height: auto;
+    }
+    
+    .foto-padroeiros-baixo figcaption {
+        display: block;
+    }
+    .video-youtube iframe {
+        height: 170px;
+        width: 365px;
+    }
+
+
+
+
+    .titulo-paroquia h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+
+
+
+
+    .rodape-celular li, nav, .rodape-flex nav {
+        display: block;
+    }
+    .item-rodape {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .item-nav-rodape {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .item-nav-rodape ul * a {
+        font-size: 20px;
+    }
+    .item-nav-rodape > .rodape-celular {
+        grid-template-columns: 1fr 1fr;
+    }
+    .rodape-flex-pc {
+        display: none;
+    }
+
+
+
+    .item {
+        display: none;
+    }
+    .cabecalho-flex {
+        justify-content: left;
+        align-items: left;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .item-nav-cabecalho {
+        padding-left: 10px;
+    }
+    .item-nav-cabecalho img {
+        width: 75px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .item-nav-cabecalho p {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+    }
+
+
+
+    .container-pagina-completo-grid div * .o-maria{
+        padding: 0;
+        margin-top: 0;
+        width: 300px;
+    }
+
+    .foto-matriz img {
+        height: 280px;
+    }
+}
+
+
+
+@media (max-width: 540px){
+    .foto-matriz img {
+        height: 250px;
+    }
+    /* .container-corpo-grid div {
+        margin-left: 5%;
+        margin-right: 5%;
+    } */
+    .container-corpo-grid div {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+
+
+
+@media (max-width: 430px){
+    .foto-matriz img {
+        height: 250px;
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="agenda.css" />
+
+    <title>Agenda P.N.S.C. 2025</title>
+  </head>
+  <body>
+    <div class="titulo-pagina">
+      <h1>AGENDAMENTO DE CELEBRAÇÕES</h1>
+    </div>
+    <div class="todo-container">
+      <h3>Tipo de Celebração:</h3>
+        <input type="text" id="type-input" placeholder="Santa Missa, Batizado, Matrimônio..."/>
+        <h3>Data da Celebração:</h3>
+            <input type="date" id="date-input" placeholder="Digite a data da Celebração..."/>
+        <h3>Local da Celebração:</h3>
+            <input type="text" id="local-input" placeholder="Digite o local da Celebração..."/>
+        <h3>Complemento:</h3>
+            <input type="text" id="complemento-input" placeholder="Digite o complemento..."/>
+        <button id="add-task-btn" class="btn">SOLICITAR AGENDAMENTO</button>
+
+      <h2>Lista completa</h3>
+      <ul id="task-list">
+        <!-- Dizimistas aparecerão aqui -->
+      </ul>
+
+      <button id="save-tasks-btn" class="btn">SALVAR ALTERAÇÕES</button>
+    </div>
+
+    <script src="agenda.js"></script>
+  </body>
+</html>

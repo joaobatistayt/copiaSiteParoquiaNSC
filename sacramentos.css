@@ -1,0 +1,103 @@
+.titulo-historia-matriz-completo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.titulo-historia-matriz-1 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Inter", serif;
+}
+
+.titulo-historia-matriz-2 {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center;
+    font-family: "Inter", serif;
+}
+
+
+
+
+.texto-historia-matriz-completo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.texto-historia-matriz-completo p {
+    font-size: 28px;
+    text-align: justify;
+    margin-bottom: 0;
+    text-indent: 35px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.texto-historia-matriz-completo li {
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 0;
+    text-indent: 35px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.subtitulo-historia-matriz {
+    font-size: 22px;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+
+
+
+.imagem-jubileu-60anos-matriz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.imagem-jubileu-60anos-matriz img {
+    width: 400px;
+    height: auto;
+    border: solid blue;
+    padding: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+}
+
+
+
+@media (max-width: 430px) {
+    .imagem-jubileu-60anos-matriz img {
+        width: 300px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    }
+
+    .texto-historia-matriz-completo p {
+        line-height: 1.2;
+    }
+
+    .texto-historia-matriz-completo h3 {
+        font-size: 20px;
+    }
+
+    .titulo-historia-matriz-1, .titulo-historia-matriz-2 {
+        font-size: 27px;
+    }
+
+}

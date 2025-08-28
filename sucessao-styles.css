@@ -1,0 +1,83 @@
+.bloco-titulo-texto-sucessao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-texto-sucessao {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Inter", serif;
+}
+
+
+.subtitulo-texto-sucessao {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+
+
+.bloco-texto-sucessao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.bloco-texto-sucessao p {
+    font-size: 28px;
+    width: 1050px;
+    text-align: justify;
+    margin-bottom: 0;
+    text-indent: 35px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+
+
+
+
+.bloco-foto-sucessao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-foto-sucessao figure {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+}
+
+.bloco-foto-sucessao img {
+    width: 800px;
+    height: auto;
+    border: solid blue;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.bloco-foto-bispos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid blue;
+    margin-bottom: 20px;
+}
+
+.bloco-foto-bispos img {
+    width: 300px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,35 @@
+.registro-fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+}
+.bloco-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-imagem img {
+    width: 550px;
+    height: auto;
+    border: solid blue;
+    padding: 5px;
+}
+
+.bloco-imagem figcaption {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194, 157, 13);
+    margin-bottom: 10px;
+}
+
+select {
+    background-color: aqua;
+}

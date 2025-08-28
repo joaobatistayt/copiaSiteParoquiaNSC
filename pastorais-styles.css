@@ -1,0 +1,86 @@
+.bloco-titulo-pastoral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-pastoral h2 {
+    font-size: 35px;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-family: "Inter", serif;
+}
+
+
+
+
+.bloco-pastoral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-pastoral img {
+    width: 550px;
+    height: auto;
+    border: solid blue;
+    padding: 5px;
+}
+
+.bloco-pastoral figcaption {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194, 157, 13);
+    margin-bottom: 10px;
+}
+
+.blocopastoral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocopastoral h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194, 157, 13);
+    margin-bottom: 20px;
+    max-width: 800px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.blocopastorais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocopastorais  h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194, 157, 13);
+    margin-bottom: 20px;
+    max-width: 800px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+@media screen and (max-width: 819px) {
+
+}

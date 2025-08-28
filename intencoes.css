@@ -1,0 +1,138 @@
+/* intencoes.css */
+
+.container-corpo-grid .intencoes-container{
+    align-items: center;
+}
+.intencoes-container {
+    padding: 20px;
+    max-width: 800px;
+    min-height: 500px; /* Garante uma altura mínima */
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Regras para forçar o layout vertical */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Garante que o formulário e a lista não fiquem excessivamente largos */
+.intencao-form, #lista-intencoes {
+    width: 100%;
+    max-width: 650px;
+}
+
+/* Estilos para o formulário de intenções */
+.intencao-form .form-group {
+    margin-bottom: 20px;
+}
+
+.intencao-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.intencao-form input[type="text"],
+.intencao-form textarea,
+.intencao-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.intencao-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.intencao-form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.intencao-form button:hover {
+    background-color: #004494;
+}
+
+#lista-intencoes {
+    margin-top: 40px;
+    width: 100%; /* Garante que a lista ocupe o espaço */
+
+    display: flex;
+    flex-direction: column; /* Força os itens a formarem uma pilha */
+    align-items: center;    /* Centraliza a pilha de itens */
+}
+
+.intencao-item {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-left: 5px solid #0056b3;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: relative; /* Necessário para posicionar o botão de apagar */
+    padding-right: 45px; /* Espaço para o botão de apagar */
+}
+
+.intencao-item h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.intencao-item p {
+    margin: 0 0 5px 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.intencao-item .tipo {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 50%; /* Deixa o botão redondo */
+    color: #999;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: all 0.2s ease;
+}
+
+.delete-btn:hover {
+    background-color: #e74c3c; /* Vermelho ao passar o mouse */
+    color: white;
+    border-color: #c0392b;
+}

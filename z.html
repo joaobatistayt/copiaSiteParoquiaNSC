@@ -1,0 +1,71 @@
+<!-- <h2>Agendar Evento</h2>
+
+  <label for="titulo">Título:</label>
+  <input type="text" id="titulo" placeholder="Ex: Missa especial"><br><br>
+
+  <label for="tipoEvento">Tipo:</label>
+  <select id="tipoEvento">
+    <option value="missa">Missa</option>
+    <option value="batizado">Batizado</option>
+    <option value="casamento">Casamento</option>
+  </select><br><br>
+
+  <label for="dataEvento">Data:</label>
+  <input type="date" id="dataEvento"><br><br>
+
+  <label for="localEvento">Local:</label>
+  <input type="text" id="localEvento" placeholder="Ex: Igreja Matriz"><br><br>
+
+  <button id="agendarBtn">Agendar Evento</button>
+
+  <h3>Eventos Agendados:</h3>
+  <div id="listaEventos"></div> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="titulo-pagina">
+      <h1>Solicitar celebração</h1>
+    </div>
+    <div class="todo-container">
+        <label for="tipoCelebracao">Tipo de celebração:</label>
+            <select id="selectTipoCelebracao">
+                <option>Selecionar</option>
+                <option value="missa">Santa Missa</option>
+                <option value="batizado">Batizado</option>
+                <option value="matrimonio">Matrimônio</option>
+            </select><br><br>
+            
+        <label for="dataCelebracao">Data da celebração:</label>
+            <input type="date" id="date-input"/><br><br>
+            
+        <label for="horaCelebracao">Hora da celebração:</label>
+            <input type="time" id="hora-input"/><br><br>
+
+        <label for="localCelebracao">Local:</label>
+            <input type="text" id="local-input" placeholder="Digite o local da celebração..."><br><br>
+
+        <label for="telefoneContato">Telefone:</label>
+            <input type="tel" id="tel-input" placeholder="Digite o telefone para contato..."><br><br>
+
+        <label for="descricaoCelebracao">Complemento:</label>
+            <input type="text" id="descricao-input" placeholder="Digite o complemento..."><br><br>
+
+
+        <button id="salvar-agendamento-btn" class="btn">Solicitar agendamento de celebração</button>
+
+        <h2>Lista completa</h3>
+        <ul id="celebracoesAgendadas">
+            <!-- As celebrações agendadas aparecerão aqui -->
+        </ul>
+
+    </div>
+
+    <script src="agenda.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+    "documentos": [
+    {
+        "titulo": "Diretório Litúrgico 2025",
+        "descricao": "Orientações e calendário para as celebrações litúrgicas do ano de 2025.",
+        "categoria": "Liturgia",
+        "url": "docs/diretorio-liturgico-2025.pdf"
+    },
+    {
+        "titulo": "Formulário de Inscrição para Batismo",
+        "descricao": "Ficha cadastral para pais e padrinhos que desejam batizar uma criança.",
+        "categoria": "Sacramentos",
+        "url": "docs/formulario-batismo.pdf"
+    },
+    {
+        "titulo": "Formulário de Inscrição para Crisma",
+        "descricao": "Ficha cadastral para jovens e adultos que desejam receber o sacramento da Crisma.",
+        "categoria": "Sacramentos",
+        "url": "docs/formulario-crisma.pdf"
+    },
+    {
+        "titulo": "Catecismo da Igreja Católica",
+        "descricao": "Compêndio oficial e completo da doutrina católica. Essencial para estudo.",
+        "categoria": "Doutrina",
+        "url": "https://www.vatican.va/archive/cathechism_po/index_new/prima-pagina-cic_po.html"
+    },
+    {
+        "titulo": "Horários de Missas e Confissões",
+        "descricao": "Tabela atualizada com os horários das celebrações na Matriz e Capelas.",
+        "categoria": "Informativo",
+        "url": "logos-fotos/AGENDAmensalCOMUNIDADES.jpeg"
+    }
+    ],
+
+    "eventos": [
+    {
+        "eventName": "Sábado de Aleluia 2025",
+        "fotos": ["galeria-fotos/VigiliaSabSanto2025FOTO0.JPG", "galeria-fotos/VigiliaSabSanto2025FOTO1.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO2.JPG", "galeria-fotos/VigiliaSabSanto2025FOTO4.JPG", "galeria-fotos/VigiliaSabSanto2025FOTO5.JPG", "galeria-fotos/VigiliaSabSanto2025FOTO10.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO11.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO12.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO13.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO14.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO15.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO16.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO17.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO18.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO19.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO20.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO21.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO22.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO23.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO24.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO26.jpg", "galeria-fotos/VigiliaSabSanto2025FOTO28.jpg"]
+    },
+    {
+        "eventName": "Domingo de ramos 2025",
+        "fotos": ["galeria-fotos/SANTA-MISSA-RAMOS-1.jpeg", "galeria-fotos/SANTA-MISSA-RAMOS-2.jpeg", "galeria-fotos/SANTA-MISSA-RAMOS-5.jpeg", "galeria-fotos/SANTA-MISSA-RAMOS-3.jpeg", "galeria-fotos/SANTA-MISSA-RAMOS-4.jpeg"]
+    },
+    {
+        "eventName": "Quaresma 2025",
+        "fotos": []
+    },
+    {
+        "eventName": "Multirão de Confissões 2025",
+        "fotos": ["galeria-fotos/FOTO-1-MUTIRAO-CONFISSOES-2025.jpeg", "galeria-fotos/FOTO-2-MUTIRAO-CONFISSOES-2025.jpeg", "galeria-fotos/FOTO-3-MUTIRAO-CONFISSOES-2025.jpeg", "galeria-fotos/FOTO-PAROCOS-MUTIRAO-CONFISSOES-2025.jpeg"]
+    },
+    {
+        "eventName": "Solenidade de São José 2025",
+        "fotos": ["galeria-fotos/FOTO-IMAGEM-SOLENIDADE-S.JOSE.jpeg", "galeria-fotos/FOTO-EUCARISTIA-SOLENIDADE-S.JOSE.jpeg", "galeria-fotos/FOTO-CALICE-SOLENIDADE-S.JOSE.jpeg", "galeria-fotos/FOTO-ALTAR-SOLENIDADE-S.JOSE.jpeg"]
+    },
+    {
+        "eventName": "Quarta-Feira de Cinzas 2025",
+        "fotos": ["galeria-fotos/CINZAS-Bencao-S-Missa-2025.jpeg", "galeria-fotos/CINZAS-Distribuicao-S-Missa-2025.jpeg", "galeria-fotos/CINZAS-Eucaristia-S-Missa-2025.jpeg"]
+    },
+    {
+        "eventName": "Novo Sacrário",
+        "fotos": ["galeria-fotos/FotoDoisBencaoNovoSacrarioMatriz2025.jpeg", "galeria-fotos/FotoNovoSacrarioMatriz2025.jpeg", "galeria-fotos/FotoUmBencaoNovoSacrarioMatriz2025.jpeg"]
+    }
+]
+}

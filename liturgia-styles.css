@@ -1,0 +1,247 @@
+.liturgia-dominical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-liturgia-dominical {
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-liturgia-dominical h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.titulo-liturgia-dominical h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+
+
+.bloco-fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.bloco-fotos h3 {
+    font-size: 25px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+}
+.bloco-fotos h4 {
+    font-size: 22px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    margin: 15px;
+    padding: 0;
+}
+.bloco-fotos h5 {
+    display: flex;
+    justify-items: left;
+    text-align: left;    
+    font-size: 15px;
+    font-style: italic;
+}
+.resp-aclamacao {
+    display: flex;
+    justify-content: left;
+}
+.resp-aclamacao p {
+    text-align: left;
+}
+
+.blocotexto-secretaria p  {
+    font-size: 20px;
+    text-align: justify;
+    justify-content: left;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+}
+
+/* .blocosubtitulo-secretaria {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid #0039A1;
+    width: 100%;
+    margin: 30px;
+    padding-bottom: 0;
+} */
+
+.blocosubtitulo-secretaria {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+}
+
+.blocosubtitulo-secretaria h4 {
+    padding: 10px;
+    margin-bottom: 0;
+    margin: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+.blocopastorais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    margin: 20px;
+    padding: 15px; */
+}
+
+.blocopastorais  p {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    height: auto;
+    text-align: left;
+    padding: 15px;
+}
+
+.blocotexto-secretaria {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.subtitulo-geral {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: solid #0031A1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+}
+.subtitulo-geral h3 {
+    margin: 0;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+.direitos-cnbb {
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.direitos-cnbb h5 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.calendario-mes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.calendario-mes h4{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 0;
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+}
+
+.calendario-mes * {
+    border: solid black 2px;
+    /* margin: 10px; */
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.calendario-mes table {
+    margin-top: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+    border: black solid;
+}
+.calendario-mes th {
+    border: none;
+}
+
+.calendario-mes a, th, td {
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    border: none;
+    margin: 0;
+} 
+
+.important-date a {
+    color: rgb(218, 1, 1);
+}
+
+.blocopastorais {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 490px){
+    .calendario-mes a {
+        font-size: 15px;
+        margin: 2px;
+        padding: 2px;
+    }
+    .calendario-mes  td {
+        padding:  5px 0;
+
+        
+    }
+    .calendario-mes  tr {
+        padding: 0;
+
+        
+    }
+    .calendario-mes  th {
+        padding: 8px;
+
+        
+    }
+    .calendario-mes  table {
+        padding: 3px;
+        
+    }
+}
